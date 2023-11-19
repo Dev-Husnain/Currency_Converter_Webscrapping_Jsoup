@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CurrencyConverter" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="selectedColor">@color/primaryColor</item>
+        <item name="fontFamily">@font/roboto_slab</item>
+    </style>
+
+    <style name="Theme.CurrencyConverter" parent="Base.Theme.CurrencyConverter" />
+
+    <style name="RoundedImage50" parent="Base.Theme.CurrencyConverter">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="CustomCardRadius" parent="Base.Theme.CurrencyConverter">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/_50sdp</item>
+        <item name="cornerSizeTopLeft">@dimen/_50sdp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+</resources>
